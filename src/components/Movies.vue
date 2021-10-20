@@ -178,20 +178,6 @@ export default {
 </script>
 
 <style scoped>
-.modal-container button {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  text-align: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1vw;
-  color: #fff;
-}
 .header {
   top: 0px;
   position: relative;
@@ -455,5 +441,20 @@ export default {
 .card span {
   font-weight: normal;
   font-size: 0.7vw;
+}
+
+.modal-container button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1vw;
+  color: #fff;
 }
 </style>
